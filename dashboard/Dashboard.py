@@ -58,7 +58,7 @@ def create_cancellation_df(df):
     return daily_cancel_df
 
 #load data
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("dashboard/all_data.csv")
 paydate_df = pd.read_csv("paym_date.csv")
 seller_df = pd.read_csv("seller_database.csv")
 
