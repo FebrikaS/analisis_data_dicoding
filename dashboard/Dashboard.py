@@ -59,8 +59,8 @@ def create_cancellation_df(df):
 
 #load data
 all_df = pd.read_csv("dashboard/all_data.csv")
-paydate_df = pd.read_csv("paym_date.csv")
-seller_df = pd.read_csv("seller_database.csv")
+paydate_df = pd.read_csv("dashboard/paym_date.csv")
+seller_df = pd.read_csv("dashboard/seller_database.csv")
 
 #all_df datetime
 datetime_alldf = ["order_purchase_timestamp"]
